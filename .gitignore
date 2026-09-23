@@ -1,0 +1,13 @@
+.grok/
+releases/*.apk
+releases/*.part-*
+app/build/
+app/.dart_tool/
+app/.idea/
+app/**/local.properties
+app/**/*.iml
+app/flutter_01.log
+app/android/.gradle/
+searched_images/
+rendered/
+*.apk
