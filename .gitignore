@@ -11,3 +11,5 @@ app/android/.gradle/
 searched_images/
 rendered/
 *.apk
+api/.env
+api/node_modules/
