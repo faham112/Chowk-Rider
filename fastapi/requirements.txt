@@ -1,5 +1,5 @@
 fastapi
 uvicorn[standard]
-motor
+asyncpg
 pydantic
 python-dotenv

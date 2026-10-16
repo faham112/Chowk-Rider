@@ -15,11 +15,11 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-`.env` banao (Mongo URI daalo):
+`.env` banao (Postgres URL daalo):
 
 ```bash
 cp .env.example .env
-nano .env   # MONGODB_URI=...
+nano .env   # DATABASE_URL=postgres://user:pass@host:5432/chowkrider
 ```
 
 Chalao:
@@ -39,4 +39,4 @@ Phone se test: `http://<termiux-ip>:8000/health`
 - `GET /orders/open`
 - `POST /orders/{id}/accept`
 
-Mongo nahi hai to bhi chalega (in-memory). Atlas chahiye to `.env` mein URI do.
+Mongo nahi. PostgreSQL use karo. `DATABASE_URL` na ho to memory fallback.
